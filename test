@@ -1,0 +1,13 @@
+> clean
+> coverage
+> test
+$ exists partA/target/scala-2.13/scoverage-data/scoverage.coverage
+$ exists partB/target/scala-2.13/scoverage-data/scoverage.coverage
+> coverageReport
+$ exists partA/target/scala-2.13/scoverage-report/scoverage.xml
+$ exists partB/target/scala-2.13/scoverage-report/scoverage.xml
+> coverageAggregate
+$ exists target/scala-2.13/scoverage-report/scoverage.xml
+> coveralls
+$ exists target/scala-2.13/coverage-data/cobertura.xml
+$ exists target/scala-2.13/coveralls.json
