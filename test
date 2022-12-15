@@ -9,5 +9,5 @@ $ exists partB/target/scala-2.13/scoverage-report/scoverage.xml
 > coverageAggregate
 $ exists target/scala-2.13/scoverage-report/scoverage.xml
 > coveralls
-$ exists target/scala-2.13/coverage-data/cobertura.xml
+$ exists target/scala-2.13/coverage-report/cobertura.xml
 $ exists target/scala-2.13/coveralls.json
