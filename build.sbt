@@ -8,7 +8,7 @@ import org.scoverage.coveralls.Imports.CoverallsKeys._
 lazy val commonSettings = Seq(
   organization := "org.scoverage",
   version := "0.1.0",
-  scalaVersion := "2.13.10",
+  scalaVersion := "2.13.12",
   coverallsTokenFile := Some("./.coverallsToken")
 )
 

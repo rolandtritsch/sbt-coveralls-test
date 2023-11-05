@@ -1,9 +1,9 @@
 val pluginSbtScoverageVersion = sys.props.getOrElse(
-  "plugin.sbtscoverage.version", "2.0.6"
+  "plugin.sbtscoverage.version", "2.0.9"
 )
 
 val pluginSbtCoverallsVersion = sys.props.getOrElse(
-  "plugin.sbtcoveralls.version", "1.3.5"
+  "plugin.sbtcoveralls.version", "1.3.11"
 )
 
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % pluginSbtScoverageVersion)
